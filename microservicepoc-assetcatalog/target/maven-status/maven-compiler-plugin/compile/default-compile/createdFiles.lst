@@ -1,0 +1,4 @@
+com\hcl\microservicepoc\model\AssetCatalog.class
+com\hcl\microservicepoc\AssetCatalogApp.class
+com\hcl\microservicepoc\SwaggerConfig.class
+com\hcl\microservicepoc\web\TestController.class
