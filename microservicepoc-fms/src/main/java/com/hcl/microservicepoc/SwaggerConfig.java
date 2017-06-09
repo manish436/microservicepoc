@@ -22,7 +22,7 @@ public class SwaggerConfig {
 	}
 
 	private ApiInfo apiInfo() {
-		return new ApiInfoBuilder().title("FMS - Microservice APIs").description("APIs for FMS - Microservice")
+		return new ApiInfoBuilder().title("FMSss - Microservice APIs").description("APIs for FMS - Microservice")
 				.version("1.0.0").build();
 	}
 }
