@@ -13,6 +13,19 @@ services:
       KAFKA_ADVERTISED_PORT: 9092
       KAFKA_ZOOKEEPER_CONNECT: zookeeper:2181
       KAFKA_CREATE_TOPICS: "simpletopic:5:1"
+ 
+  # Our Redis service:
+  redis:
+    image: redis
+    ports:
+      # We'll bind our host's port 6379 to redis's port 6379, so we can use
+      # Redis Desktop Manager (or other tools) with it:
+      - 6379:6379
+    volumes:
+      # We'll mount the 'redis-data' volume into the location redis stores it's data:
+      - redis-data:/var/lib/redis
+    command: redis-server --appendonly yes
+
   eureka:
     build: microservicepoc-eureka-server
     ports:
