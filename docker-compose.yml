@@ -1,6 +1,12 @@
 version: '2'
 services:
 
+# Eureka server
+  eureka:
+    build: microservicepoc-eureka-server
+    ports:
+    - "8761:8761"
+    
 # Our 1 of microservice
   fms:
     build: microservicepoc-fms
