@@ -3,7 +3,7 @@ Implementation-Title: microservicepoc-eureka-server
 Implementation-Version: 0.0.1-SNAPSHOT
 Built-By: manish.go
 Implementation-Vendor-Id: com.hcl.microservicepoc
-Build-Jdk: 1.8.0_111
+Build-Jdk: 1.8.0_144
 Implementation-URL: http://projects.spring.io/spring-boot/microservice
  poc/microservicepoc-eureka-server/
 Created-By: Maven Integration for Eclipse

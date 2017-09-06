@@ -20,6 +20,7 @@
 		<module>microservicepoc-fms</module>
 		<module>microservicepoc-assetcatalog</module>
 		<module>microservicepoc-eureka-server</module>
+		<module>microservicepoc-config-server</module>
 	</modules>
 
 	<properties>

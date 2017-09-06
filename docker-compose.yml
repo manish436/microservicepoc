@@ -7,6 +7,14 @@ services:
     ports:
     - "8761:8761"
     
+# Config server
+  config:
+    build: microservicepoc-config-server
+    ports:
+    - "8888:8888"
+    links:
+    - eureka
+    
 # Our 1 of microservice
   fms:
     build: microservicepoc-fms
@@ -16,9 +24,9 @@ services:
     - eureka
 
 # Our 2nd microservice 
- assetcatalog:
+  assetcatalog:
     build: microservicepoc-assetcatalog
     ports:
-    - "8072:8072"    
+    - "8080:8080"    
     links:
     - eureka

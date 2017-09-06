@@ -1,4 +1,4 @@
 com\hcl\microservicepoc\model\Employee.class
-com\hcl\microservicepoc\SwaggerConfig.class
 com\hcl\microservicepoc\FmsApp.class
 com\hcl\microservicepoc\web\TestController.class
+com\hcl\microservicepoc\SwaggerConfig.class
